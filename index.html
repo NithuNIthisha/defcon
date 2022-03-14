@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+      <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Cheetz</title>
+  </head>
+  <body>
+    <div class="row top">
+         <div class="col-lg-2 col-md-0 left">
+             <div class="row l_top">
+              <div class="col-lg-12">
+                <img class ="rocket" src="images/rocket _1.png" alt="roc_1"><br>
+                <h1 class="heading">Cheatz</h1>
+                <p class="head_tag"> Making Exams Easy</p>
+              </div>
+            </div>
+            <div class="row l_mid">
+              <div class="col-lg-12">
+                <img class ="animate" src="images/assgn.gif" alt="assgn"><br>
+                <p class="hand">Handwritten Assignment<br>@your doorsteps</p>
+                <button class="go">Let's Go!</button>
+              </div>
+            </div>
+            <div class="row l_bot">
+              <div class="b col-lg-12">
+                <p>Enter Your Code<br></p>
+                <input type="text" maxlength="6" class="code" id="c" onchange="getVal()"  placeholder="XXX-XXX">
+              </div>
+            </div>
+         </div>
+        <div class="c col-lg-7 col-md-7 middle">
+             <div class="row subrow1">
+                  <div class="c col-12">
+                      <p>Select Your Course</p>
+                  </div>
+              </div>
+
+              <div class="row subrow2">
+                  <div class="c col-lg-3 col-md-2">
+                      <form method="post" action="sub files\puc.html">
+                      <button class="puc choice" type="submit"><img class="icons" src="images/puc_1.png" alt="puc"><br>PUC</button>
+                     </form>
+                  </div>
+                  <div class="c col-lg-3">
+                     <form method="post" action="sub files\tenth.html">
+                      <button class="tenth choice"><img class="icons" src="images/10th_1.png" alt="puc"><br>10th</button>
+                     </form>
+                  </div>
+                  <div class="c col-lg-3">
+                      <form method="post" action="sub files\bca.html">
+                      <button class="bca choice"><img class="icons" src="images/bca_1.png" alt="puc"><br>BCA</button>
+                      </form>
+                  </div>
+                  <div class="c col-lg-3">
+                     <form method="post" action="sub files\eng.html">
+                      <button class="eng choice"><img class="icons" src="images/eng_1.png" alt="puc"><br>Engineering</button>
+                     </form>
+                  </div>
+
+              </div>
+              <div class="row subrow2">
+                  <div class="c col-lg-3">
+                     <form method="post" action="sub files\Bcom.html">
+                      <button class="Bcom choice"><img class="icons" src="images/Bcom_1.png" alt="puc"><br>Bcom</button>
+                     </form>
+                  </div>
+                  <div class="c col-lg-3">
+                     <form method="post" action="sub files\com.html">
+                      <button class="com choice"><img class="icons" src="images/com_1.png" alt="puc"><br>Commerce</button>
+                     </form>
+                  </div>
+                  <div class="c col-lg-6">
+                     <div class="activity">
+                      <p>Activities</p>
+                     </div>
+                  </div>
+              </div>
+              <div class="row subrow3">
+                     <div class="col-6">
+<!--                         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>-->
+<!--                         <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_pnho3kix.json"  background="transparent"  speed="1"  style="width: 200px; height: 200px;"  loop  autoplay></lottie-player>-->
+
+                         <img class ="animate" src="images/gif_app.gif" alt="assgn">
+                     </div>
+                     <div class="your_app col-6">
+                       <h1>Get Your App</h1>
+                       <a href="get_app.html">here</a>
+                     </div>
+                  </div>
+
+        </div>
+    <div class="col-lg-3 right">
+                <div class="row r_top">
+                  <div class="col-12">
+                      <p class="board"> News Board</p>
+                  </div>
+                </div>
+                <div class="row r_mid">
+                 <div class="col-12">
+
+                  <div id="carouselDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      </div>
+
+                      <div class="carousel-inner">
+                          <div class="carousel-item active" data-bs-interval="10000">
+                             <img src="images/images.png" class="news" alt="news1">
+                          </div>
+                          <div class="carousel-item" data-bs-interval="10000">
+                              <img src="images/neo.png" class="news" alt="news2">
+                          </div>
+                      </div>
+
+                   </div>
+                   </div>
+                </div>
+
+        <div class="row r_bot">
+                  <div class="col-12">
+                      <h3>Suggest us anything ?</h3>
+                      <input type="text" class="suggestions"  placeholder="Your ideas to help us improve... ?">
+                  </div>
+        </div>
+    </div>
+
+    </div>
+
+
+
+   <script src="scripts.js" charset="utf-8"></script>
+  </body>
+</html>

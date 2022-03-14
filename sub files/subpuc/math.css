@@ -1,0 +1,67 @@
+body{
+    overflow: hidden;
+}
+
+.left{
+    background-color:#F9E5E8;
+    text-align:center;
+    padding:2% 0 5% 1%;
+    height:710px;
+}
+.middle{
+   height:710px;
+}
+.l_top{
+   height:30%;
+}
+.puc{
+   width:45%;
+   height:auto;
+   float:center;
+
+}
+.l_mid{
+   height:40%;
+}
+.app{
+   width:90%;
+   background-color:#D3F4FF;
+
+}
+.l_bot{
+   position:relative;
+   height:30%;
+}
+.b{
+  position:absolute;
+  bottom:0;
+  left:0;
+}
+.code{
+   border : none;
+   border-radius: 12px;
+   width: 80%;
+   background-color:#EEF2FF;
+   text-align:center;
+}
+.right{
+
+  overflow:scroll;
+  padding:4px;
+  height: 710px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align:justify;
+
+}
+embed{
+   width:90%;
+   height:710px;
+   padding-left: 10%;
+}
+
+iframe{
+  width:90%;
+  height:25%;
+  padding:5%;
+}

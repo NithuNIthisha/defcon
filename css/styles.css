@@ -1,0 +1,210 @@
+body{
+    height:100%;
+    overflow-x: hidden;
+
+}
+.top{
+    height:710px;
+}
+.l_top{
+   height:30%;
+}
+.l_mid{
+   padding-top:15%;
+   height:50%;
+}
+.l_bot{
+   position:relative;
+   height:20%;
+}
+
+.b{
+  position:absolute;
+  bottom:0;
+  left:0;
+}
+
+.animate{
+    width:70%;
+    height:auto;
+    padding-left:10%;
+ }
+ .go{
+   width:70%;
+   height:12%;
+   border-radius: 25px;
+   color:white;
+   background-color:#008E89;
+   font-size:80%;
+   margin:5%;
+   }
+.left{
+    text-align:center;
+    padding:0 1% 1% 0;
+}
+
+.head_tag{
+   text-align:right;
+   color:#F47340;
+}
+.hand{
+   text-align:right;
+   padding:0 10% 0 0;
+   margin:0;
+}
+
+.rocket{
+    width:70%;
+    height:auto;
+    float:left;
+}
+.code{
+   border : none;
+   text-align:center;
+   border-radius: 10px;
+   width: 80%;
+   height:40px;
+   background-color:#EEF2FF;
+}
+
+.middle{
+    background-color:#F7F7F7;
+}
+
+.c{
+    border:none;
+
+}
+
+button{
+   height:108%;
+   width:100%;
+   border:none;
+   margin:0px;
+}
+.subrow1{
+   height:4%;
+   padding:2% 4% 4% 2%;
+}
+.subrow2{
+   height:35%;
+   padding:0 1% 1% 1%;
+}
+.subrow3{
+   height:26%;
+   padding:0 1% 1% 1%;
+}
+
+.puc{
+  background-color:#E6E6FA;
+  border-radius: 20%;
+
+}
+.tenth{
+  background-color:#F9E5E8;
+  border-radius: 20%;
+}
+.bca{
+  background-color:#DFECF9;
+  border-radius: 20%;
+}
+.eng{
+  background-color:#EBBBEC;
+  border-radius: 20%;
+
+}
+.Bcom{
+  background-color:#FBECD8;
+   border-radius: 20%;
+}
+.com{
+  background-color:#E7F7EA;
+  border-radius: 20%;
+}
+.activity{
+  text-align:center;
+  background-color:#D6E5FA;
+  width:90%;
+  height:95%;
+  border-radius: 5%;
+}
+.icons{
+   height:auto;
+   width:40%;
+}
+.app{
+   width:60%;
+   height:auto;
+
+}
+.your_app{
+  padding-top:3%;
+}
+a{
+  padding-left:25%;
+  text-decoration: none;
+  color:black;
+}
+.news{
+   width:85%;
+   height:440px;
+   border-radius: 5%;
+}
+.board{
+  color:#FF9F45;
+  font-weight: 0;
+  font-size:30px;
+  padding: 2% 0 0 0;
+}
+.carousel-inner{
+  height:440px;
+}
+#carouselDark{
+ height:480px;
+}
+
+.suggestions{
+   border : none;
+   width:90%;
+   height:60%;
+   text-align:center;
+   border-radius: 12px;
+   background-color:#EEF2FF;
+
+}
+.rght{
+  height:70%;
+  }
+
+.rghb{
+  height:30%;
+  }
+
+form{
+  height:90%;
+}
+.r_top{
+  height:10%;
+  padding :5% 0 0 0;
+  }
+
+.r_mid{
+  height:70%;
+  padding :5% 0 0 10%;
+  }
+
+.r_bot{
+  height:20%;
+}
+
+.cau_top{
+   padding :0 2% 2% 0;
+
+}
+.bot_gif{
+   float:right;
+}
+.download{
+   text-align:center;
+   padding:10%;
+}
